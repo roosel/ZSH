@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ~/Config//ZSH
+cd ~/Config/ZSH
 git pull origin mac
