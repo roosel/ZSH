@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:~/Files/Sites/bin:$PATH
-export VAGRANT_HOME=~/Documents/Vagrant/vagrant.d
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export VAGRANT_HOME=~/Vagrant/vagrant.d
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
@@ -52,7 +52,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx textmate colorize colored-man-pages extract thefuck docker gulp history z zsh-syntax-highlighting)
+plugins=(git ubuntu textmate colorize colored-man-pages extract thefuck docker gulp history z zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,23 +99,23 @@ alias ytmp3='youtube-dl -x --audio-format mp3'
 
 
 # Back up and update scripts
-alias backupatom="cd ~/Documents/Dev/Atom && ./backup.sh"
-alias updateatom="cd ~/Documents/Dev/Atom && ./update.sh"
+alias backupatom="cd ~/Config/Atom && ./backup.sh"
+alias updateatom="cd ~/Config/Atom && ./update.sh"
 
-alias backupgit="cd ~/Documents/Dev/Git && ./backup.sh"
-alias updategit="cd ~/Documents/Dev/Git && ./update.sh"
+alias backupgit="cd ~/Config/Git && ./backup.sh"
+alias updategit="cd ~/Config/Git && ./update.sh"
 
-alias backupiterm="cd ~/Documents/Dev/iTerm && ./backup.sh"
-alias updateiterm="cd ~/Documents/Dev/iTerm && ./update.sh"
+alias backupiterm="cd ~/Config/iTerm && ./backup.sh"
+alias updateiterm="cd ~/Config/iTerm && ./update.sh"
 
-alias backupzsh="cd ~/Documents/Dev/ZSH && ./backup.sh"
-alias updatezsh="cd ~/Documents/Dev/ZSH && ./update.sh"
+alias backupzsh="cd ~/Config/ZSH && ./backup.sh"
+alias updatezsh="cd ~/Config/ZSH && ./update.sh"
 
-alias backupbrew="cd ~/Documents/Dev/Brew && ./backup.sh"
-alias updatebrew="cd ~/Documents/Dev/Brew && ./update.sh"
+alias backupbrew="cd ~/Config/Brew && ./backup.sh"
+alias updatebrew="cd ~/Config/Brew && ./update.sh"
 
 
-alias backupinstaller="cd ~/Documents/Dev/Installer && ./backup.sh"
+alias backupinstaller="cd ~/Config/Installer && ./backup.sh"
 
 # Brew Cask
 alias bc='brew cask'
