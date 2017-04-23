@@ -1,6 +1,6 @@
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:~/Files/Sites/bin:$PATH
-export VAGRANT_HOME=~/Documents/Vagrant/vagrant.d
+	# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:~/Documents/Dev/bin:$PATH
+export EDITOR=atom
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
@@ -87,6 +87,9 @@ alias zshconfig='atom ~/.zshrc'
 alias gitconfig='atom ~/.gitconfig'
 alias ohmyzsh='atom ~/.oh-my-zsh'
 
+# flush DNS
+alias flush='dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say flushed'
+
 alias reload='. ~/.zshrc'
 alias update='brew cu -ay --cleanup && brew update && npm update -g && apm update --no-confirm && upgrade_oh_my_zsh'
 alias theme='a ~/.oh-my-zsh/themes/puddletown.zsh-theme'
@@ -115,6 +118,9 @@ alias backupbrew="cd ~/Documents/Dev/Brew && ./backup.sh"
 alias updatebrew="cd ~/Documents/Dev/Brew && ./update.sh"
 
 alias backupinstaller="cd ~/Documents/Dev/Installer && ./backup.sh"
+
+alias ptd='ptd-bootstrap'
+alias ct='env EDITOR=atom crontab -e'
 
 # Brew Cask
 alias bc='brew cask'
