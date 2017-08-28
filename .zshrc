@@ -95,6 +95,7 @@ alias update='brew cu -ay --cleanup && brew update && apm update --no-confirm &&
 alias theme='a ~/.oh-my-zsh/themes/puddletown.zsh-theme'
 #misc commands
 alias l='ls -lhG'
+alias la='ls -la'
 alias a='atom'
 alias tmm='sudo fs_usage -f -R filesys backupd'
 alias wds='webpack-dev-server --progress --colors'
