@@ -1,7 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export VAGRANT_HOME=~/Vagrant/vagrant.d
-
+eval $(thefuck --alias)
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
@@ -52,7 +51,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ubuntu textmate colorize colored-man-pages extract thefuck docker gulp history z zsh-syntax-highlighting)
+plugins=(git ubuntu textmate colorize colored-man-pages extract docker gulp history z zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,46 +82,22 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 # ZSH aliases
-alias zshconfig='atom ~/.zshrc'
-alias gitconfig='atom ~/.gitconfig'
-alias ohmyzsh='atom ~/.oh-my-zsh'
-
 alias reload='. ~/.zshrc'
-alias update='brew cu -ay --cleanup && brew update && npm update -g && apm update --no-confirm && upgrade_oh_my_zsh'
+alias update='npm update -g && apm update --no-confirm && upgrade_oh_my_zsh'
 alias theme='a ~/.oh-my-zsh/themes/puddletown.zsh-theme'
 #misc commands
 alias l='ls -lhG'
-alias a='atom'
 alias tmm='sudo fs_usage -f -R filesys backupd'
 alias wds='webpack-dev-server --progress --colors'
-alias ytmp3='youtube-dl -x --audio-format mp3'
-
-
-# Back up and update scripts
-alias backupatom="cd ~/Config/Atom && ./backup.sh"
-alias updateatom="cd ~/Config/Atom && ./update.sh"
 
 alias backupgit="cd ~/Config/Git && ./backup.sh"
 alias updategit="cd ~/Config/Git && ./update.sh"
 
-alias backupiterm="cd ~/Config/iTerm && ./backup.sh"
-alias updateiterm="cd ~/Config/iTerm && ./update.sh"
-
 alias backupzsh="cd ~/Config/ZSH && ./backup.sh"
 alias updatezsh="cd ~/Config/ZSH && ./update.sh"
 
-alias backupbrew="cd ~/Config/Brew && ./backup.sh"
-alias updatebrew="cd ~/Config/Brew && ./update.sh"
-
-
 alias backupinstaller="cd ~/Config/Installer && ./backup.sh"
 
-# Brew Cask
-alias bc='brew cask'
-alias bci='brew cask install'
-alias bcl='brew cask list'
-alias bcs='brew cask search'
-alias bcu='brew cu -ay'
 
 # Command line head / tail shortcuts
 alias -g H='| head'
