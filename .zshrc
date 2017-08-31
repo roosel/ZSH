@@ -1,6 +1,6 @@
-	# If you come from bash you might have to change your $PATH.
+# If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:~/Documents/Dev/bin:$PATH
-export EDITOR=atom
+export VAGRANT_HOME=~/Documents/Vagrant/vagrant.d
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
@@ -83,23 +83,24 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 # ZSH aliases
-alias zshconfig='atom ~/.zshrc'
+alias zsh='atom ~/.zshrc'
 alias gitconfig='atom ~/.gitconfig'
 alias ohmyzsh='atom ~/.oh-my-zsh'
 
-# flush DNS
-alias flush='dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say flushed'
-
 alias reload='. ~/.zshrc'
-alias update='brew cu -ay --cleanup && brew update && apm update --no-confirm && upgrade_oh_my_zsh'
+alias update='brew cu -ay --cleanup && brew update && npm update -g && apm update --no-confirm && upgrade_oh_my_zsh'
 alias theme='a ~/.oh-my-zsh/themes/puddletown.zsh-theme'
+
 #misc commands
 alias l='ls -lhG'
-alias la='ls -la'
 alias a='atom'
 alias tmm='sudo fs_usage -f -R filesys backupd'
 alias wds='webpack-dev-server --progress --colors'
 alias ytmp3='youtube-dl -x --audio-format mp3'
+
+# flush DNS
+alias flush='dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say flushed'
+
 
 
 # Back up and update scripts
@@ -120,8 +121,8 @@ alias updatebrew="cd ~/Documents/Dev/Brew && ./update.sh"
 
 alias backupinstaller="cd ~/Documents/Dev/Installer && ./backup.sh"
 
-alias ptd='ptd-bootstrap'
-alias ct='env EDITOR=atom crontab -e'
+alias ptb='ptd-bootstrap'
+alias cront='env EDITOR=atom crontab -e'
 
 # Brew Cask
 alias bc='brew cask'
@@ -145,19 +146,20 @@ alias -g P="2>&1| pygmentize -l pytb"
 # alias ug="ungit --port=8081"
 
 #Git Aliases
-# alias ga="git add"
+alias ga="git add"
 # alias gac="git commit -am"
-# alias gb="git branch"
+alias gb="git branch"
+alias gba="git branch --all"
 # alias gbd="git branch -d"
 # alias gbdr="git push origin --delete new"
 # alias gbD="git branch -D"
 # alias gbv="git branch -v"
-# alias gc="git commit -m"
+alias gcm="git commit -m"
 # alias gac="git commit -ma"
-# alias gch="git checkout"
+alias gch="git checkout"
 # alias gchb="git checkout branch"
 # alias gchh="git checkout head"
-# alias gcl="git clone"
+alias gcl="git clone"
 # alias gd="git diff"
 # alias gds="git diff --staged"
 # alias gi="git init"
