@@ -83,8 +83,8 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 # ZSH aliases
-alias zsh='atom ~/.zshrc'
-alias gitconfig='atom ~/.gitconfig'
+alias zsh='atom ~/Documents/Dev/ZSH/.zshrc'
+alias gitconfig='atom ~/Documents/Dev/Git/.gitconfig'
 alias ohmyzsh='atom ~/.oh-my-zsh'
 
 alias reload='. ~/.zshrc'
@@ -101,17 +101,16 @@ alias ytmp3='youtube-dl -x --audio-format mp3'
 # flush DNS
 alias flush='dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say flushed'
 
-
-
 # Back up and update scripts
+
 alias backupatom="cd ~/Documents/Dev/Atom && ./backup.sh"
 alias updateatom="cd ~/Documents/Dev/Atom && ./update.sh"
 
 alias backupgit="cd ~/Documents/Dev/Git && ./backup.sh"
 alias updategit="cd ~/Documents/Dev/Git && ./update.sh"
 
-alias backupiterm="cd ~/Documents/Dev/iTerm && ./backup.sh"
-alias updateiterm="cd ~/Documents/Dev/iTerm && ./update.sh"
+# alias backupiterm="cd ~/Documents/Dev/iTerm && ./backup.sh"
+# alias updateiterm="cd ~/Documents/Dev/iTerm && ./update.sh"
 
 alias backupzsh="cd ~/Documents/Dev/ZSH && ./backup.sh"
 alias updatezsh="cd ~/Documents/Dev/ZSH && ./update.sh"
