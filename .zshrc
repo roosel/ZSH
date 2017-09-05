@@ -91,7 +91,9 @@ alias reload='. ~/.zshrc'
 alias update='brew cu -ay --cleanup && brew update && npm update -g && apm update --no-confirm && upgrade_oh_my_zsh'
 alias theme='a ~/.oh-my-zsh/themes/puddletown.zsh-theme'
 
+
 #misc commands
+alias o='open'
 alias l='ls -lhG'
 alias a='atom'
 alias tmm='sudo fs_usage -f -R filesys backupd'
