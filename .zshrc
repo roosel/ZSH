@@ -126,6 +126,7 @@ alias ptb='ptd-bootstrap'
 alias cront='env EDITOR=atom crontab -e'
 
 # Brew Cask
+alias bi='brew install'
 alias bc='brew cask'
 alias bci='brew cask install'
 alias bcl='brew cask list'
