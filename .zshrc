@@ -83,6 +83,7 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 # ZSH aliases
+
 alias zsh='atom ~/Documents/Dev/ZSH/.zshrc'
 alias gitconfig='atom ~/Documents/Dev/Git/.gitconfig'
 alias ohmyzsh='atom ~/.oh-my-zsh'
@@ -91,6 +92,13 @@ alias reload='. ~/.zshrc'
 alias update='brew cu -ay --cleanup && brew update && npm update -g && apm update --no-confirm && upgrade_oh_my_zsh'
 alias theme='a ~/.oh-my-zsh/themes/puddletown.zsh-theme'
 
+# vagrant
+alias v='vagrant up && vagrant ssh'
+alias vd='vagrant destroy'
+alias vh='vagrant halt'
+alias vr='vagrant reload'
+alias vs='vagrant ssh'
+alias vu='vagrant up'
 
 #misc commands
 alias o='open'
