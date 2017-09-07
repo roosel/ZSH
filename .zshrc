@@ -119,8 +119,8 @@ alias updateatom="cd ~/Documents/Dev/Atom && ./update.sh"
 alias backupgit="cd ~/Documents/Dev/Git && ./backup.sh"
 alias updategit="cd ~/Documents/Dev/Git && ./update.sh"
 
-# alias backupiterm="cd ~/Documents/Dev/iTerm && ./backup.sh"
-# alias updateiterm="cd ~/Documents/Dev/iTerm && ./update.sh"
+alias backupiterm="cd ~/Documents/Dev/iTerm && ./backup.sh"
+alias updateiterm="cd ~/Documents/Dev/iTerm && ./update.sh"
 
 alias backupzsh="cd ~/Documents/Dev/ZSH && ./backup.sh"
 alias updatezsh="cd ~/Documents/Dev/ZSH && ./update.sh"
