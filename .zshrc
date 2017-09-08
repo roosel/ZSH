@@ -169,6 +169,7 @@ alias gba="git branch --all"
 alias gcm="git commit -m"
 # alias gac="git commit -ma"
 alias gch="git checkout"
+
 # alias gchb="git checkout branch"
 # alias gchh="git checkout head"
 alias gcl="git clone"
