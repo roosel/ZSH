@@ -139,6 +139,7 @@ alias cront='env EDITOR=atom crontab -e'
 # Brew Cask
 alias bu='brew upgrade'
 alias bi='brew install'
+alias bs='brew search'
 alias bc='brew cask'
 alias bci='brew cask install'
 alias bcl='brew cask list'
