@@ -2,6 +2,10 @@
 export PATH=$HOME/bin:/usr/local/bin:~/Documents/Dev/bin:$PATH
 export VAGRANT_HOME=~/Documents/Vagrant/vagrant.d
 
+# nvm homebrew path export configuration:
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
