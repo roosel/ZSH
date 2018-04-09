@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # ZSH aliases
 
-alias zsh='atom ~/Documents/Dev/ZSH/.zshrc'
+alias zshrc='atom ~/Documents/Dev/ZSH/.zshrc'
 alias gitconfig='atom ~/Documents/Dev/Git/.gitconfig'
 alias ohmyzsh='atom ~/.oh-my-zsh'
 
@@ -139,7 +139,7 @@ alias backupinstaller="cd ~/Documents/Dev/Installer && ./backup.sh"
 alias ptb='ptd-bootstrap'
 alias cront='env EDITOR=atom crontab -e'
 
-# Brew Cask
+# Brew / Brew Cask
 alias bun='brew uninstall'
 alias bcun='brew cask uninstall'
 alias brin='brew reinstall'
