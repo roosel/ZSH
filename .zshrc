@@ -167,6 +167,9 @@ alias -g NE="2> /dev/null"
 alias -g NUL="> /dev/null 2>&1"
 alias -g P="2>&1| pygmentize -l pytb"
 
+# Jekyll
+alias bjs='bundle exec jekyll serve'
+
 # alias ug="ungit --port=8081"
 
 #Git Aliases
