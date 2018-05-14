@@ -108,6 +108,8 @@ alias a='atom'
 # alias tmm='sudo fs_usage -f -R filesys backupd'
 # alias wds='webpack-dev-server --progress --colors'
 # alias ytmp3='youtube-dl -x --audio-format mp3'
+alias ytwav='youtube-dl -x --audio-format wav'
+
 
 # flush DNS
 alias flush='dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say flushed'
