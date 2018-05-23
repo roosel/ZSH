@@ -171,7 +171,7 @@ alias -g P="2>&1| pygmentize -l pytb"
 
 # Jekyll
 # specify port with `--port $1234`
-alias bjs='bundle exec jekyll serve'
+alias bjs='bundle exec jekyll serve --port'
 
 
 
