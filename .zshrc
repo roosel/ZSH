@@ -103,7 +103,7 @@ alias vu='vagrant up'
 #misc commands
 alias o='open'
 alias la='ls -la'
-alias l='ls -lhG'
+alias l='ls -l'
 alias a='atom'
 # alias tmm='sudo fs_usage -f -R filesys backupd'
 # alias wds='webpack-dev-server --progress --colors'
