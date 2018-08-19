@@ -2,12 +2,15 @@
 export PATH=/usr/local/bin:$HOME/bin:~/Documents/Dev/bin:$PATH
 export VAGRANT_HOME=~/Documents/Vagrant/vagrant.d
 
+# rbenv
+export PATH=$HOME/.rbenv/shims:/usr/local/bin:$HOME/.bin:$PATH
+
+# load rbenv automatically
+eval "$(rbenv init - zsh)"
+
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -223,6 +226,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
-eval "$(rbenv init -)"
+# export PATH="$PATH:$HOME/.rvm/bin"
