@@ -171,10 +171,10 @@ alias -g P="2>&1| pygmentize -l pytb"
 
 # Jekyll
 # specify port with `--port $1234`
-alias bjs='bundle exec jekyll serve --port'
+alias bjsp='bundle exec jekyll serve --port'
 
 # VirtualBox Guest Additions
-alias share='sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) Media ./shared'
+# alias share='sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) Media ./shared'
 
 # alias ug="ungit --port=8081"
 
