@@ -5,6 +5,10 @@ export VAGRANT_HOME=~/Documents/Vagrant/vagrant.d
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -220,3 +224,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+eval "$(rbenv init -)"
