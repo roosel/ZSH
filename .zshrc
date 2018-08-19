@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=/usr/local/bin:$HOME/bin:~/Documents/Dev/bin:$PATH
+export PATH=~/.rbenv/shims:/usr/local/bin:$HOME/bin:~/Documents/Dev/bin:$PATH
 export VAGRANT_HOME=~/Documents/Vagrant/vagrant.d
 
 # Path to your oh-my-zsh installation.
@@ -220,3 +220,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 # export PATH="$PATH:$HOME/.rvm/bin"
+
+eval "$(rbenv init -)"
