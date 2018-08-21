@@ -119,7 +119,7 @@ alias rsync='rsync -azP'
 
 # Back up and update scripts
 
-alias backupall="cd ~/Documents/Dev/Atom && ./backup.sh && cd ~/Documents/Dev/Git && ./backup.sh && cd ~/Documents/Dev/iTerm && ./backup.sh && cd ~/Documents/Dev/ZSH && ./update.sh && cd ~/Documents/Dev/Brew && ./backup.sh && cd ~/Documents/Dev/"
+alias backupall="cd ~/Documents/Dev/Atom && ./backup.sh && cd ~/Documents/Dev/Git && ./backup.sh && cd ~/Documents/Dev/iTerm && ./backup.sh && cd ~/Documents/Dev/ZSH && ./backup.sh && cd ~/Documents/Dev/Brew && ./backup.sh && cd ~/Documents/Dev/"
 
 alias backupatom="cd ~/Documents/Dev/Atom && ./backup.sh"
 alias updateatom="cd ~/Documents/Dev/Atom && ./update.sh"
