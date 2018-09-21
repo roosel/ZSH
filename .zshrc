@@ -193,6 +193,7 @@ alias bjsp='bundle exec jekyll serve --port'
 #alias gch="git checkout"
 
 # alias gchb="git checkout branch"
+alias ghb="git checkout -b"
 # alias gchh="git checkout head"
 #alias gcl="git clone"
 #alias gp="git pull"
